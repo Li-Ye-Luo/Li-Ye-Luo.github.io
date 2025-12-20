@@ -127,7 +127,7 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/.pnpm/valaxy-theme-yun@0.26.10_vue@3.5.22_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
+    'pages/index.md': {
       routes:
         | '/'
       views:

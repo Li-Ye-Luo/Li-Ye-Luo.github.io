@@ -1,1 +1,36 @@
 pnpm dev
+
+pnpm build
+
+
+
+git init
+git status
+git add .
+git commit -m "初始化博客"
+git push -u origin main
+git push origin main -f
+
+
+查看分支
+git branch
+切换到main分支
+git branch -m main
+
+
+查看现在的仓库
+git remote -v
+删除现有的远程仓库
+git remote remove origin
+重新添加正确的仓库
+git remote add origin https://github.com/Li-Ye-Luo.github.io.git
+
+
+
+
+
+
+hexo命令
+hexo clean && hexo g
+hexo server
+hexo d
