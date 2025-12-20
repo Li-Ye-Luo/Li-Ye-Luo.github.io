@@ -14,13 +14,13 @@ useHead({
   <div class="mt-37 mb-4">
     <YunPostList />
   </div>
-  
-  <!-- 注意：如果使用 layout: default，布局通常自带 Footer。 -->
-  <!-- 如果发现有两个页脚，请删除下面这行 <YunFooter /> -->
+
+  <!-- 如果用了 layout: default，布局里自带 Footer，这里通常不需要加 YunFooter -->
+  <!-- 如果你发现有两个页脚，请把下面这行删掉 -->
   <YunFooter />
 </template>
 
-<!-- !!! 必须添加下面这个代码块 !!! -->
+<!-- 关键点：这个 route 块必须存在，且缩进必须正确 (YAML格式) -->
 <route lang="yaml">
 meta:
   layout: default
