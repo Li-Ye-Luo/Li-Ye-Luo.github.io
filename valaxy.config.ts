@@ -10,7 +10,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   /** 站点基础配置（GitHub Pages 必须） */
   siteConfig: {
     title: '李夜落的小站',
-    url: 'https://li-ye-luo.github.io',
+    url: 'https://blog.liyeluo.top',
     base: '/',
     author: '李夜落',
     description: '李夜落的个人博客',
